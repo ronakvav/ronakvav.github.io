@@ -1,0 +1,27 @@
+{
+    "liveServer.settings.port": 4500,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.CustomBrowser" : "chrome",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --incognito --remote-debugging-port=9222",
+    "liveServer.settings.NoBrowser" : false,
+    "liveServer.settings.ignoreFiles" : [
+            ".vscode/**",
+            "**/*.scss",
+            "**/*.sass"
+    ],
+
+    
+    
+        "liveServer.settings.https": {
+        "enable": true, //set it true to enable the feature.
+        "key": "C:\\Online-Marketplace-master\\AR\\.vscode\\https\\privatekey.key", //full path of the certificate
+        "cert": "C:\\Online-Marketplace-master\\AR\\.vscode\\https\\certificate.crt", //full path of the private key
+        "passphrase": "12345"
+        }
+        
+    
+
+
+
+
+}
