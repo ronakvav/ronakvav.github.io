@@ -19,7 +19,7 @@
 
         var loader = new GLTFLoader();
         loader.load(
-          './models/cover_chair/scene.gltf',
+          './models/wheel.glb',
           (gltf) => {
             model = gltf.scene;
             model.scale.set(0.1, 0.1, 0.1);
